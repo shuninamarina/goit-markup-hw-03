@@ -74,7 +74,7 @@ address {
   margin-right: var(--main-gap);
 }
 
-.logo-color.footer {
+.logo-color-footer {
   color: var(--white-color);
 }
 
@@ -304,9 +304,21 @@ address {
   background-color: var(--header-footer-color);
 }
 
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--brand-color);
+  cursor: pointer;
+  margin-right: 0;
+}
+.logo-color.footer {
+  margin-right: 0;
+}
 .footer-container {
   background-color: var(--header-footer-color);
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .footer-adress {
@@ -393,7 +405,8 @@ address {
 }
 .portfolio-wrapper {
   padding: 20px 24px;
-  outline: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 /* footer */
